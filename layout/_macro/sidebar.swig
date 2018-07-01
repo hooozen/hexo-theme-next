@@ -108,9 +108,6 @@
                   #}{% if theme.social_icons.enable %}{#
                     #}<i class="fa fa-fw fa-{{ link.split('||')[1] | trim | default('globe') }}"></i>{#
                   #}{% endif %}{#
-                  #}{% if not theme.social_icons.icons_only %}{#
-                    #}{{ name }}{#
-                  #}{% endif %}{#
                 #}{% if theme.exturl && theme.social_icons.exturl %}{#
                   #}</span>
                   {% else %}{#
