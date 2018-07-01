@@ -122,6 +122,7 @@ menu:
   categories: /categories/ || th
   #archives: /archives/ || archive
   about: /about/ || user
+  friends: /friends/ || link
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
@@ -185,10 +186,14 @@ social_icons:
 
 # Blog rolls
 links_icon: link
-links_title: Links
-links_layout: block
-#links_layout: inline
-#links:
+links_title: 友链
+#links_layout: block
+links_layout: inline
+links:
+  OathKeeper: http://chdsoftware.club
+  上午茶: http://www.zhangck.com/
+  陈文科的博客: http://chenwenke.cn/blog/
+  YangTian: http://yangtian.xyz/
   #Title: http://example.com/
 
 # Sidebar Avatar
