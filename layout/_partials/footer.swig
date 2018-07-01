@@ -2,9 +2,6 @@
 #}{% set current = date(Date.now(), "YYYY") %}{#
 #}&copy; {% if theme.footer.since and theme.footer.since != current %}{{ theme.footer.since }} &mdash; {% endif %}{#
 #}<span itemprop="copyrightYear">{{ current }}</span>
-  <span class="with-love" id="animate">
-    <i class="fa fa-{{ theme.footer.icon.name }}"></i>
-  </span>
   <span class="author" itemprop="copyrightHolder">{{ theme.footer.copyright | default(author) }}</span>
 
   {% if config.symbols_count_time.total_symbols %}
