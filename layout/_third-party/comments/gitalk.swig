@@ -4,7 +4,7 @@
   <script type="text/javascript">
     var gitalk = new Gitalk({
       clientID: '{{ theme.gitalk.clientID }}',
-      clietnSecret: '{{ theme.gitalk.clientSecret }}',
+      clientSecret: '{{ theme.gitalk.clientSecret }}',
       repo: '{{ theme.gitalk.repo }}',
       owner: '{{ theme.gitalk.owner }}',
       admin: '{{ theme.gitalk.admin }}',

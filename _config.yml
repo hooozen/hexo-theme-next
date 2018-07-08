@@ -45,9 +45,9 @@ cache:
 # For example, you put your favicons into `hexo-site/source/images` directory.
 # Then need to rename & redefine they on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.
 favicon:
-  small: /images/favicon-16x16-next.png
-  medium: /images/favicon-32x32-next.png
-  apple_touch_icon: /images/apple-touch-icon-next.png
+  small: /images/favicon-16x16-hozen.png
+  medium: /images/favicon-32x32-hozen.png
+  apple_touch_icon: /images/apple-touch-icon-hozen.png
   safari_pinned_tab: /images/logo.svg
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
@@ -548,7 +548,7 @@ gitalk:
   owner: hooozen # MUST HAVE, Your Github Username
   admin: hooozen
   repo: hooozen.github.io # MUST HAVE, The name of the repo you use to store Gitment comments
-  clientId: 2dd3e808150d02b6810b # MUST HAVE, Github client id for the Gitment
+  clientID: 2dd3e808150d02b6810b # MUST HAVE, Github client id for the Gitment
   clientSecret: 35312c390f46acf9b1ac500f0f99f508b8c7ffd1 # EITHER this or proxy_gateway, Github access secret token for the Gitment
 
 # Baidu Share
