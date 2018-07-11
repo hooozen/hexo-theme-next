@@ -983,3 +983,8 @@ vendors:
 css: css
 js: js
 images: images
+
+# 百度站长
+baidu_site:
+  enable: true
+  meta: 8QyItPczif

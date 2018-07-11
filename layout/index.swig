@@ -2,6 +2,11 @@
 {% import '_macro/post.swig' as post_template %}
 {% import '_macro/sidebar.swig' as sidebar_template %}
 
+{% block meta %}
+  {% if theme.baidu_site.enable %}
+    <meta name="baidu-site-verification" content="{{ theme.baidu_site.meta }}">
+  {% endif %}
+{% endblock %}
 {% block title %}{{ title }}{% if theme.index_with_subtitle and subtitle %} &mdash; {{ subtitle }}{% endif %}{% endblock %}
 
 {% block page_class %}
