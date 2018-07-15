@@ -988,3 +988,5 @@ images: images
 baidu_site:
   enable: true
   meta: 8QyItPczif
+  auto_push:
+    enable: true
