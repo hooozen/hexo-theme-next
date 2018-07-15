@@ -695,8 +695,6 @@ busuanzi_count:
 # tencent_mta:
 
 
-# Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
-baidu_push: false
 
 # Google Calendar
 # Share your recent schedule to others via calendar page
@@ -986,7 +984,6 @@ images: images
 
 # 百度站长
 baidu_site:
-  enable: true
-  meta: 8QyItPczif
-  auto_push:
-    enable: true
+  enable: true # 开启百度站长功能
+  meta: 8QyItPczif # 通过 meta 辨识认证网站
+  auto_push: true # 开启自动推送，利于百度 SEO
