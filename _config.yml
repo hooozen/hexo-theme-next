@@ -986,5 +986,5 @@ images: images
 # 百度站长
 baidu_site:
   enable: true # 开启百度站长功能
-  meta: 8QyItPczif # 通过 meta 辨识认证网站
+  meta: IsLppxuScc # 通过 meta 辨识认证网站
   auto_push: true # 开启自动推送，利于百度 SEO
