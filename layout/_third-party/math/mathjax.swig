@@ -18,3 +18,4 @@
     });
 </script>
 <script type="text/javascript" src="{{ theme.math.mathjax.cdn }}"></script>
+<script type="text/javascript" src="{{ theme.math.mathjax.polyfill }}"></script>
