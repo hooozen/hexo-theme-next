@@ -17,5 +17,6 @@
         }
     });
 </script>
-<script type="text/javascript" src="{{ theme.math.mathjax.cdn }}"></script>
 <script type="text/javascript" src="{{ theme.math.mathjax.polyfill }}"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="{{ theme.math.mathjax.cdn }}"></script>
